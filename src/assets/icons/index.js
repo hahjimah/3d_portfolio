@@ -1,5 +1,4 @@
 import css from './css.svg'
-import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
@@ -20,16 +19,15 @@ import car from './car.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import python from './python.svg'
 
 export {
     css,
-    express,
+    python,
     git,
     github,
     html,
@@ -50,8 +48,6 @@ export {
     estate,
     pricewise,
     snapgram,
-    summiz,
-    threads,
     arrow,
     contact,
     soundon,
