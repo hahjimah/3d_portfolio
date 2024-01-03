@@ -16,10 +16,15 @@ import {
     pricewise,
     react,
     sass,
-    snapgram,
     tailwindcss,
     typescript,
-    python
+    python,
+    weather,
+    resume,
+    watermelon,
+    id,
+    game,
+    star
 } from "../assets/icons";
 
 export const skills = [
@@ -157,31 +162,35 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: id,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: '3D Personal Portfolio',
+        description: 'Embark on a journey through my professional landscape with my 3D Personal Portfolio. This project transcends traditional online resumes, offering an immersive, interactive 3D world that represents my skills, experiences, and projects.',
+        link: 'https://github.com/hahjimah/3d_portfolio',
     },
     {
-        iconUrl: car,
+        iconUrl: game,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Suika Game',
+        description: 'Step into "Suika," an enthralling game where strategy meets fun, challenging players to skillfully drop fruits into a container, aiming for high scores while avoiding overflow',
+        link: 'https://github.com/hahjimah/suika-game',
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
+        iconUrl: star,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'TicTacToe',
+        description: "This endeavor exemplifies my skill in elevating a basic game into a refined and intellectually engaging experience. It's a testament to my proficiency in crafting algorithms that enhance gameplay complexity and in designing interfaces that enrich user interaction, turning a simple pastime into a captivating challenge.",
+        link: 'https://github.com/hahjimah/TicTacToe',
     },
 ];
+
+export const educations = [
+    {
+        name: "Bellevue College",
+        major: "Computer Science",
+        icon: resume,
+        date: 'Sept 2019 - Dec 2023',
+        skills:["C/C++", "TypeScript", "JavaScript", "Java", "Python", "Kotlin", 
+        "MySQL", "MongoDB", "CSS", "Project Management", "Web Development", "Development", "Problem Solving", "Team Collaboration", "Agile Programing"]
+    }
+]

@@ -24,6 +24,12 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './python.svg'
+import weather from './weather.svg'
+import resume from './resume.svg'
+import watermelon from './watermelon.svg'
+import star from './star.svg'
+import id from './id.svg'
+import game from './game.svg'
 
 export {
     css,
@@ -51,5 +57,11 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    weather,
+    resume,
+    watermelon,
+    id,
+    game,
+    star
 }
