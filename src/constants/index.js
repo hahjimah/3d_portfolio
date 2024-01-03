@@ -187,8 +187,9 @@ export const projects = [
 export const educations = [
     {
         name: "Bellevue College",
-        major: "Computer Science",
+        major: "Computer Science Major",
         icon: resume,
+        iconBg: '#BB8FCE',
         date: 'Sept 2019 - Dec 2023',
         skills:["C/C++", "TypeScript", "JavaScript", "Java", "Python", "Kotlin", 
         "MySQL", "MongoDB", "CSS", "Project Management", "Web Development", "Development", "Problem Solving", "Team Collaboration", "Agile Programing"]

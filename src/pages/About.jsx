@@ -128,11 +128,11 @@ const About = () => {
                   />
                 </div>
               }
-              iconStyle={{ background: "#D9D9D9" }} // You can customize this
+              iconStyle={{ background: education.iconBg }}
               contentStyle={{
                 borderBottom: "8px",
                 borderStyle: "solid",
-                borderBottomColor: "#D9D9D9", // And this, to match your style
+                borderBottomColor: education.iconBg,
                 boxShadow: "none",
               }}
             >
