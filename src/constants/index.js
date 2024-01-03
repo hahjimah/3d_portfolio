@@ -164,7 +164,7 @@ export const projects = [
     {
         iconUrl: id,
         theme: 'btn-back-red',
-        name: '3D Personal Portfolio',
+        name: 'Personal Portfolio',
         description: 'Embark on a journey through my professional landscape with my 3D Personal Portfolio. This project transcends traditional online resumes, offering an immersive, interactive 3D world that represents my skills, experiences, and projects.',
         link: 'https://github.com/hahjimah/3d_portfolio',
     },
