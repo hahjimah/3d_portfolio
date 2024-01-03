@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          working on many projects to become successful. <br /> check out my
+          Working on many projects to become successful. <br /> Check out my
           portfolio
         </p>
 
