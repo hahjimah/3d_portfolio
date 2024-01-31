@@ -32,6 +32,7 @@ import id from "./id.svg";
 import game from "./game.svg";
 import key from "./key.svg";
 import express from "./express.svg";
+import calculator from "./calculator.svg";
 
 export {
   key,
@@ -68,4 +69,5 @@ export {
   id,
   game,
   star,
+  calculator,
 };

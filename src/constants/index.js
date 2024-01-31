@@ -27,6 +27,7 @@ import {
   id,
   game,
   star,
+  calculator,
 } from "../assets/icons";
 
 export const skills = [
@@ -178,7 +179,7 @@ export const projects = [
   },
   {
     iconUrl: game,
-    theme: "btn-back-blue",
+    theme: "btn-back-green",
     name: "Suika Game",
     description:
       'Step into "Suika," an enthralling game where strategy meets fun, challenging players to skillfully drop fruits into a container, aiming for high scores while avoiding overflow',
@@ -186,7 +187,7 @@ export const projects = [
   },
   {
     iconUrl: star,
-    theme: "btn-back-black",
+    theme: "btn-back-yellow",
     name: "TicTacToe",
     description:
       "This endeavor exemplifies my skill in elevating a basic game into a refined and intellectually engaging experience. It's a testament to my proficiency in crafting algorithms that enhance gameplay complexity and in designing interfaces that enrich user interaction, turning a simple pastime into a captivating challenge.",
@@ -194,11 +195,19 @@ export const projects = [
   },
   {
     iconUrl: key,
-    theme: "btn-back-red",
+    theme: "btn-back-blue",
     name: "Rest API With NodeJS",
     description:
       "This Node.js project is a REST API for a product inventory system, built using Express.js. It allows users to add, retrieve, update, and delete products, each identified by a unique ID, from an in-memory array. The API handles various HTTP requests, providing JSON responses and uses the crypto module for generating unique product IDs.",
     link: "https://github.com/hahjimah/Rest_API_With_NodeJS",
+  },
+  {
+    iconUrl: calculator,
+    theme: "btn-back-orange",
+    name: "Tip-Calculator",
+    description:
+      "This project is a simple tip calculator that allows users to enter a bill amount, select a tip percentage, and see the tip and total values. It also includes a feature to calculate the total amount owed, which is calculated by adding the bill amount and the tip amount.",
+    link: "https://github.com/hahjimah/tip-calculator-app",
   },
 ];
 
